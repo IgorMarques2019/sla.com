@@ -1,0 +1,131 @@
+/* ---------------------------------- fonts --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+/* -------------------------------- FORMATATION ------------------------------- */
+
+
+
+
+* {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+html,body {
+    height:100%;
+}
+
+
+/* ------------------------------- NAVEGATION ------------------------------- */
+
+.nav-item:hover {
+    background-color:#060568;
+}
+
+#nav-search  {
+    width:379px;
+}
+
+.nav-link {
+    font-size:1.2em;
+}
+
+/* --------------------------------- BANNER --------------------------------- */
+
+section#banner1 {
+    height:100%;
+    background: url(../imgs/girl_guitar_anime_141048_1920x1080.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+section#banner1 .container {
+    width:630px;
+}
+.p-banner {
+    font-size:1.1em;
+}
+.input-banner {
+    width:520px;
+}
+
+/* ------------------------------- TOP ANIMES ------------------------------- */
+
+section#top-animes {
+    box-sizing: border-box;
+    background:#2D0067;
+}
+section#top-animes .top-p {
+    font-size:1em;
+}
+section#top-animes .top-card {
+max-width:210px;
+background:#340474;
+}
+
+section#top-animes .card-body {
+  display:none;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ media queries ----------------------------- */
+
+@media (max-width:578.95px) {
+   
+    .nav-item {
+        padding:5px;
+        margin:10px;
+        
+    }
+    #nav-search {
+        width:auto;
+    }
+
+    #login-nav {
+        width:100%;
+    }
+    .nav-link {
+        font-size:1em;
+    }
+
+    .p-banner {
+        font-size:0.9em;
+    }
+    .input-banner {
+        width:auto;
+    }
+    section#banner1 .container {
+        width:auto;
+    }
+    section#top-animes .top-card {
+        width:auto;
+        max-width:100%;
+    }
+    section#top-animes .top-title {
+        font-size:2em;
+    }
+    section#top-animes .card-body {
+       display:block;
+     }
+     
+     
+    
+   
+}
